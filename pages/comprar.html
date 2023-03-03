@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    <title>Comprar Ingressos</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">Cinema UHD</a></h1>
+        <p>Seu site de bilheteria favorito.</p>
+    </header>
+    <main class="principal">
+        <div class="conteudo">
+            <div class="compraringressos">
+                <h1>Comprar Ingressos</h1>
+                <select name="salas" id="">
+                    <option disabled selected>Selecione uma sala...</option>
+                    <option value="sala1">Sala 1</option>
+                    <option value="sala2">Sala 2</option>
+                    <option value="sala3">Sala 3</option>
+                    <option value="sala4">Sala 4</option>
+                </select>
+                <div>
+                    <p>Escolha o tipo do Ingressos:</p>
+                    <input type="radio" name="entrada" value="Meia" id=""> Meia
+                    <input type="radio" name="entrada" value="Inteira" id=""> Inteira
+                </div>
+            </div>
+            <p>Quantidade de Ingressos:</p>
+            <input class="inputmin" type="number" required="required">
+            <div class="pagamento">
+                <h1>Forma de Pagamento</h1>
+                <div>
+                    <input type="radio" name="cartao" value="debito" id=""> Débito
+                    <input type="radio" name="cartao" value="credito" id=""> Crédito
+                </div>
+                    <p>Nome do Títular</p>
+                    <input type="text" required="required">  
+                    <p>Número do Cartão</p>  
+                    <input type="number" required="required">
+                    <p>Data de Vencimento</p>
+                    <input type="date" required="required">
+                    <p>CVV</p>
+                    <input class="inputmin" type="number" required="required">
+            </div>
+            <button class="finalizarpedido"><a href="#">Finalizar Pedido</a></button>
+        </div>
+            <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.621878268686!2d-34.87403068522491!3d-8.037862682488324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18f4aa58f8eb%3A0x6026a69170273ac4!2sUCI%20Kinoplex%20Shopping%20Tacaruna!5e0!3m2!1spt-BR!2sbr!4v1677867080275!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </main>
+</body>
+</html>

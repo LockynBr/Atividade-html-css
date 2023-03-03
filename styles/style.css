@@ -1,0 +1,196 @@
+@charset "UFT-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #00bbff;
+    border-radius: 6px;
+    color: black;
+}
+
+.filmes {
+    margin-top: 0px;
+    margin-left: 10px;
+    padding-top: 1px;
+}
+
+.filmes > h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    background-color: #BADAE6;
+    margin: 10px;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+td, th {
+    text-align: center;
+}
+
+table {
+    width: 800px;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.sinopse {
+    margin-bottom: 20px;
+    text-justify: auto;
+}
+
+.sinopse h2 {
+    text-align: center;
+}
+
+.sinopse p{
+    text-indent: 45px;
+}
+
+.video {
+    text-align: center;
+}
+
+.video iframe {
+    display: block;
+    margin: auto;
+}
+
+
+button {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 40px;
+    background-color: #00bbff;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px black;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    background-color: rgb(0, 255, 0);
+}
+
+button > a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.principal {
+    background-color: #BADAE6;
+    margin: 10px;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 0px;
+}
+
+.conteudo {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
+.compraringressos > p, select {
+    margin: 5px 0px 5px 0px;
+}
+
+.compraringressos > input {
+    margin: 5px 0px 5px 0px;
+}
+
+.inputmin {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.pagamento {
+    width: 900px;
+    text-align: left;
+}
+
+.pagamento p {
+    display: block;
+}
+
+.pagamento input {
+    text-align: justify;
+}
+
+.finalizarpedido {
+    margin-top: 15px;
+    width: 115px;
+    height: 50px;
+    margin-left: 0px;
+}
+
+.mapa {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mapa iframe {
+    width: 900px;
+}
